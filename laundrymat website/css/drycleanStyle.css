@@ -1,0 +1,23 @@
+@import "all.css";
+@import "header.css";
+@import "footer.css";
+
+.drycleaning > img {
+  height:400px;
+  position:relative; left: 300px; top:100px;
+}
+.drycleaning > span {
+  text-align: center;
+  position: relative; left: 800px; bottom: 200px;
+}
+.drycleaning > span > h1 {
+  width:600px;
+  font-size: 3em;
+}
+.drycleaning > span > p {
+  width:600px;
+  font-size:1.5em;
+}
+footer {
+  position: relative; top:180px;
+}

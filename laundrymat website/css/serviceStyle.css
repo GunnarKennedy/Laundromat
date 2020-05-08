@@ -1,0 +1,90 @@
+@import "all.css";
+@import "header.css";
+@import "footer.css";
+@keyframes washing-span-animation {
+  from {
+    bottom:300px; right:400px;
+  } to {
+    bottom:230px; right:300px;
+  }
+}
+@keyframes washing-img-animation {
+  from {
+    top: 250px;
+  } to {
+    top: 100px;
+  }
+}
+.washing {
+
+}
+.washing > img {
+  height:400px;
+  position: relative; left:1200px; top: 250px;
+  animation-name: washing-img-animation;
+  animation-duration: 1s;
+
+  top: 100px;
+}
+footer {
+  position:relative; top: 500px;
+}
+.washing > span {
+  text-align: center;
+  position: relative; bottom:300px; right:400px;
+  animation-name: washing-span-animation;
+  animation-duration: 1s;
+  bottom:230px; right:300px;
+}
+.washing > span > h1 {
+  font-size: 3em;
+}
+.washing > span > p >a {
+  color:white;
+  font-size: 1.3em;
+  position: relative; top: 10px;
+  padding:10px;
+  background-color:#262625;
+  text-decoration: none;
+}
+.drying > img {
+  height: 400px;
+  position:relative; top:195px; left:300px;
+}
+.drying > span > h1 {
+  font-size: 3em;
+}
+.drying > span {
+  text-align: center;
+  position:relative; left:420px; bottom:100px;
+}
+.drying > span > p > a {
+  color:white;
+  position:relative; top: 10px;
+  font-size: 1.3em;
+  padding:10px;
+  background-color:#262625;
+  text-decoration: none;
+}
+.drycleaning > img {
+  height:400px;
+  position:relative; top:200px; left: 1130px;
+}
+.drycleaning {
+  position:relative; top: 200px;
+}
+.drycleaning > span > h1 {
+  font-size: 3em;
+}
+.drycleaning > span {
+  text-align: center;
+  position: relative; right:400px; bottom:130px;
+}
+.drycleaning > span > p > a {
+  color:white;
+  position:relative; top: 10px;
+  font-size: 1.3em;
+  padding:10px;
+  background-color:#262625;
+  text-decoration: none;
+}

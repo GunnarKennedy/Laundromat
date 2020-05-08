@@ -1,0 +1,69 @@
+@import "all.css";
+@import "header.css";
+@import "footer.css";
+@keyframes family-picture-move {
+  from {
+     bottom:-250px;
+  } to {
+     bottom: -100px;
+  }
+}
+@keyframes family-title-animation {
+  from {
+    bottom:500px;
+  } to {
+    bottom:300px;
+  }
+}
+.quality {
+  color:black;
+  text-decoration: none;
+}
+.family > img {
+  height:500px;
+  position:relative; left:100px; bottom: -250px;
+  animation-name: family-picture-move;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  bottom:-100px;
+}
+.family > span {
+  text-align: center;
+  position:relative; left:350px; bottom:500px;
+  animation-name: family-title-animation;
+  animation-duration: 1s;
+  bottom:300px;
+}
+.family > span > h1 {
+  font-size: 2.5em;
+  width:700px;
+  position:relative; left:600px;
+}
+.family > span > p {
+  font-size:1.5em;
+  width:800px;
+  position:relative; left: 550px;
+}
+.machine > h1 {
+  position:relative; left: 265px; bottom:250px;
+}
+.machine {
+
+  margin: 0px -10px 0px -10px;
+}
+.machine > img {
+  position:relative; left: 1050px; top: 100px;
+}
+.machine > p {
+  font-size: 1.3em;
+  text-align: center;
+  position:relative; left:200px; bottom: 200px;
+  width:500px;
+}
+.machine:hover {
+  background-color:lightgray;
+}
+.map {
+  text-align: center;
+  position:relative; top: 100px;
+}

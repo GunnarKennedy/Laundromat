@@ -1,0 +1,11 @@
+footer {
+  background-color:#262625;
+  text-align: center;
+  color:white;
+  position:relative; top:60px;
+  height:220px;
+  margin: 0px -10px 0px -10px;
+}
+footer > ul {
+  list-style-type:none;
+}

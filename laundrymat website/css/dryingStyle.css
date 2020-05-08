@@ -1,0 +1,77 @@
+@import "all.css";
+@import "header.css";
+@import "footer.css";
+
+@keyframes header-animation {
+ from {
+   bottom:40px;
+ } to {
+   bottom:0px;
+ }
+}
+@keyframes img1-animation {
+  from {
+    top:100px; right:300px;
+  } to {
+    top:50px; right:0px;
+  }
+}
+@keyframes img2-animation {
+  from {
+    top: -100px; left: 300px;
+  } to {
+    top:50px; left:0px;
+  }
+}
+.first > h1 {
+  position: relative; bottom: 40px;
+  animation-name: header-animation;
+  animation-duration: 1s;
+  bottom:0px;
+  font-size: 3.0em;
+}
+.first > p {
+  display: inline;
+  opacity:0%;
+}
+.first > img {
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 10%;
+  position:relative; top:50px;
+  height:400px; width:600px;
+}
+.center {
+  text-align: center;
+}
+#img1 {
+  position:relative; top:100px; right:300px;
+  animation-name: img1-animation;
+  animation-duration: 1s;
+  top:50px; right:0px;
+}
+#img2 {
+  position: relative; top: -100px; left: 300px;
+  animation-name: img2-animation;
+  animation-duration: 1s;
+  top:50px; left:0px;
+
+}
+.price > img {
+  height:600px;
+  position:relative; left: 300px; top:300px;
+}
+.price > span {
+  text-align: center;
+  position:relative; left:1000px; bottom:200px;
+}
+.price > span > h1 {
+  font-size: 3.0em;
+  width:500px;
+}
+.price > span > p {
+  font-size: 1.5em;
+  width:500px;
+}
+footer {
+  position:relative; top:200px;
+}

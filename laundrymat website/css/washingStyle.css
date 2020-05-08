@@ -1,0 +1,95 @@
+@import "all.css";
+@import "header.css";
+@import "footer.css";
+
+@keyframes header-animation {
+  from {
+    bottom:40px;
+  } to {
+    bottom:0px;
+  }
+}
+@keyframes pic1-animation {
+  from {
+    left:0px; top:0px;
+  } to {
+    left:300px; top:50px;
+  }
+}
+@keyframes pic2-animation {
+  from {
+    left:650px; top:100px;
+  } to {
+     left:350px; top:50px;
+  }
+}
+.fac > h1 {
+    text-align: center;
+    position:relative; bottom: 40px;
+    animation-name: header-animation;
+    animation-duration: 1s;
+    bottom:0px;
+    font-size: 3em;
+}
+#img1 {
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 10%;
+  position:relative; left:0px; top:0px;
+  animation-name: pic1-animation;
+  animation-duration: 1s;
+  left:300px; top:50px;
+  height:400px;
+  width:600px;
+}
+#img2 {
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 10%;
+  height:400px;
+  width:600px;
+  position: relative;   left:650px; top:100px;
+  animation-name: pic2-animation;
+  animation-duration: 1s;
+
+
+  left:350px; top:50px;
+}
+.dark {
+  position:relative; top:200px;
+}
+.dark > span > img {
+  height: 250px;
+  position:relative; left:300px;
+}
+
+.dark > span > h1 {
+  width:500px;
+  font-size: 3.0em;
+  text-align: center;
+  position: relative; left: 1050px; top: 170px;
+}
+.dark > span > p {
+  width:500px;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative; left: 1050px; top: 170px;
+}
+.light > span > img {
+  height: 250px;
+  position:relative; bottom:200px; left:700px;
+}
+.light > span {
+  position: relative; left: 350px; top: 300px;
+}
+.light > span > p {
+  width:500px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.light > span > h1 {
+  width:500px;
+  font-size: 3.0em;
+  text-align: center;
+}
+footer {
+  position:relative; top:300px;
+}
